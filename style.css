@@ -135,3 +135,31 @@ footer {
   text-align: center;
   padding: 1.5rem;
 }
+.card {
+  padding: 1rem;
+  border: 1px solid #d7ccc8;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-top: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #d7ccc8;
+}
+
+button[type="submit"]:hover {
+  background-color: #8d6e63;
+}
